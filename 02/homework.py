@@ -19,3 +19,6 @@ from transformers import AutoTokenizer
 
 tokenizer = AutoTokenizer.from_pretrained("google/gemma-2b")
 # %%
+len(tokenizer.encode(answer))
+
+# %%
