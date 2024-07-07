@@ -81,7 +81,7 @@ CONTEXT:
 
 print(len(prompt))
 # %%
-encoding = tiktoken.encoding_for_model("gpt-4o")
+encoding = tiktoken.encoding_for_model("gpt-3.5-turbo")
 tokens = encoding.encode(prompt)
 len(tokens)
 # %%
